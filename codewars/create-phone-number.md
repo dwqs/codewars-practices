@@ -10,7 +10,7 @@ Don't forget the space after the closing parenthese!
 
 **Kata's link**: [Create Phone Number](http://www.codewars.com/kata/create-phone-number/)
 
-#Best practice
+#Best Practices
 
 **First:**
 ```

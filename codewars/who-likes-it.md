@@ -15,7 +15,7 @@ For more than 4 names, the number in `and 2 others` simply increases.
 
 **Kata's link:** [Who likes it?](http://www.codewars.com/kata/who-likes-it/)
 
-#Best practice
+#Best Practices
 
 **First:**
 ```

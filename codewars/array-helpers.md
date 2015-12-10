@@ -25,7 +25,7 @@ numbers.odd(); // must return [1, 3, 5]
 
 **Kata's link:** [Array Helpers](http://www.codewars.com/kata/array-helpers)
 
-#Best practice
+#Best Practices
 
 **First:**
 ```

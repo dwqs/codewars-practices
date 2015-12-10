@@ -14,7 +14,7 @@ You'll need to get a little clever with performance, since n can be a very large
 
 **Kata's link:** [Sum of many ints](http://www.codewars.com/kata/sum-of-many-ints/)
 
-#Best practice
+#Best Practices
 
 **First:**
 ```

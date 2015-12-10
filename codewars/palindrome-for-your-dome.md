@@ -19,7 +19,7 @@ NOTE: reverse/reverse! have been disabled for String/Array and reverse() for JS.
 
 **Kata's link:** [Palindrome for your Dome](http://www.codewars.com/kata/palindrome-for-your-dome/)
 
-#Best practice
+#Best Practices
 
 **First:**
 ```
