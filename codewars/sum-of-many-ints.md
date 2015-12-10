@@ -57,5 +57,5 @@ function f(n, m) {
 }
 ```
 
-Kata's link: [Sum of mant ints](http://www.codewars.com/kata/sum-of-many-ints/)
+Kata's link: [Sum of many ints](http://www.codewars.com/kata/sum-of-many-ints/)
 
