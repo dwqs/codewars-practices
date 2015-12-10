@@ -17,6 +17,8 @@ You can see that they are case insensitive and disregards non alphanumeric chara
 
 NOTE: reverse/reverse! have been disabled for String/Array and reverse() for JS.
 
+**Kata's link:** [Palindrome for your Dome](http://www.codewars.com/kata/palindrome-for-your-dome/)
+
 #Best practice
 
 **First:**
@@ -66,5 +68,3 @@ function palindrome(string) {
   ;
 }
 ```
-
-Kata's link: [Palindrome for your Dome](http://www.codewars.com/kata/palindrome-for-your-dome/)
