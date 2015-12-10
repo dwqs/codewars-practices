@@ -12,7 +12,7 @@ Don't forget the space after the closing parenthese!
 
 #Best practice
 
-**First:*
+**First:**
 ```
 function createPhoneNumber(numbers){
   var format = "(xxx) xxx-xxxx";
@@ -26,7 +26,7 @@ function createPhoneNumber(numbers){
 }
 ```
 
-**Second:*
+**Second:**
 ```
 function createPhoneNumber(numbers){
   return numbers.join('').replace(/(...)(...)(.*)/, '($1) $2-$3');
