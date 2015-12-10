@@ -1,0 +1,1 @@
+[Sum of many ints](codewars/sum-of-many-ints.md);
