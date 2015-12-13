@@ -18,9 +18,7 @@ To help you get started, here is an excerpt from Wikipedia's page on [Ordinal In
 * As an exception to the above rules, all the "teen" numbers ending with 11, 12 or 13 use -th (e.g. 11th, pronounced eleventh, 112th, pronounced one hundred [and] twelfth)
 * th is used for all other numbers (e.g. 9th, pronounced ninth).
 
-**Kata's link:** [Adding ordinal indicator suffixes to numbers
-                  
-](http://www.codewars.com/kata/adding-ordinal-indicator-suffixes-to-numbers/)
+**Kata's link:** [Adding ordinal indicator suffixes to numbers](http://www.codewars.com/kata/adding-ordinal-indicator-suffixes-to-numbers/)
 
 #Best Practices
 
