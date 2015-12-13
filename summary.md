@@ -5,3 +5,4 @@
 * [Array Helpers](codewars/array-helpers.md)
 * [Who likes it?](codewars/who-likes-it.md)
 * [Create Phone Number](codewars/create-phone-number.md)
+* [Sometimes](codewars/sometimes.md)
