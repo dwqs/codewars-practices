@@ -7,4 +7,4 @@
 * [Create Phone Number](codewars/create-phone-number.md)
 * [Sometimes](codewars/sometimes.md)
 * [Adding ordinal indicator suffixes to numbers](codewars/adding-ordinal-indicator-suffixes-to-numbers.md)
-* [Count IP Addresses](codewars/count-ip-address.md);
+* [Count IP Addresses](codewars/count-ip-address.md)
