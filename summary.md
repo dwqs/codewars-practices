@@ -8,3 +8,5 @@
 * [Sometimes](codewars/sometimes.md)
 * [Adding ordinal indicator suffixes to numbers](codewars/adding-ordinal-indicator-suffixes-to-numbers.md)
 * [Count IP Addresses](codewars/count-ip-address.md)
+* [Regex Password Validation](codewars/regex-password-validation.md)
+* [Find Unique Number](codewars/find-the-unique-number-1.md)
