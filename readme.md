@@ -1,5 +1,5 @@
 ## Awesome Codewars
-Collect best practices on [codewars](http://www.codewars.com/) and try to update it weekly.
+Some best practices for practice questions on [codewars](http://www.codewars.com/) and try to update it weekly.
 
 ## Lists
 
