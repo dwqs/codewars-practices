@@ -1,6 +1,8 @@
 ## Codewars Practices
 Some best practices for practice questions on [codewars](http://www.codewars.com/) and try to update it weekly.
 
+>Notes: The best practices for every question I have passed all tests on codewars were sorted via votes count descending.
+
 ## Lists
 
 * [Sum of many ints](codewars/sum-of-many-ints.md)
