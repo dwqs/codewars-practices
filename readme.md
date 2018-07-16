@@ -15,6 +15,7 @@ Here is my codewars homepage: https://www.codewars.com/users/dwqs.
 * [Sometimes](codewars/201512/sometimes.md)
 * [Adding ordinal indicator suffixes to numbers](codewars/201512/adding-ordinal-indicator-suffixes-to-numbers.md)
 * [Count IP Addresses](codewars/201512/count-ip-address.md)
-* [Regex Password Validation](codewars/201702/regex-password-validation.md)
+* [Regex Password Validation](codewars/git/regex-password-validation.md)
 * [Find Unique Number](codewars/201701/find-unique-number.md)
+* [Valid Parentheses](codewars/201807/valid-parentheses.md)
 
