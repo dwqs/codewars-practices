@@ -1,4 +1,4 @@
-#Description
+## Description
 
 A palindrome is a word, phrase, number, or other sequence of symbols or elements, whose meaning may be interpreted the same way in either forward or reverse direction. Famous examples include "Amore, Roma", "A man, a plan, a canal: Panama" and "No 'x' in 'Nixon'". - wikipedia
 
@@ -19,7 +19,7 @@ NOTE: reverse/reverse! have been disabled for String/Array and reverse() for JS.
 
 **Kata's link:** [Palindrome for your Dome](http://www.codewars.com/kata/palindrome-for-your-dome/)
 
-#Best Practices
+## Best Practices
 
 **First:**
 ```

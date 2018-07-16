@@ -1,4 +1,4 @@
-#Description
+## Description
 
 Finish the function numberToOrdinal, which should take a number and return it as a string with the correct ordinal indicator suffix (in English). That is:
 
@@ -20,7 +20,7 @@ To help you get started, here is an excerpt from Wikipedia's page on [Ordinal In
 
 **Kata's link:** [Adding ordinal indicator suffixes to numbers](http://www.codewars.com/kata/adding-ordinal-indicator-suffixes-to-numbers/)
 
-#Best Practices
+## Best Practices
 
 **First:**
 ```

@@ -1,4 +1,4 @@
-#Description
+## Description
 
 You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
 
@@ -15,7 +15,7 @@ For more than 4 names, the number in `and 2 others` simply increases.
 
 **Kata's link:** [Who likes it?](http://www.codewars.com/kata/who-likes-it/)
 
-#Best Practices
+## Best Practices
 
 **First:**
 ```

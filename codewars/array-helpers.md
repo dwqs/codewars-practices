@@ -1,4 +1,4 @@
-#Description
+## Description
 
 This kata is designed to test your ability to extend the functionality of built-in ruby classes. In this case, we want you to extend the built-in Array class with the following methods: `square()`, `cube()`, `average()`, `sum()`, `even()` and `odd()`.
 
@@ -25,7 +25,7 @@ numbers.odd(); // must return [1, 3, 5]
 
 **Kata's link:** [Array Helpers](http://www.codewars.com/kata/array-helpers)
 
-#Best Practices
+## Best Practices
 
 **First:**
 ```

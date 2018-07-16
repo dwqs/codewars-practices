@@ -1,4 +1,4 @@
-#Description
+## Description
 
 You need to write regex that will validate a password to make sure it meets the following criteria:
 
@@ -11,7 +11,7 @@ Valid passwords will only be alphanumeric characters.
 
 **Kata's link**: [Regex Password Validation](https://www.codewars.com/kata/regex-password-validation/)
 
-#Best Practices
+## Best Practices
 
 **First:**
 ```

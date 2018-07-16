@@ -1,4 +1,4 @@
-#Description
+## Description
 
 A function that works sometimes
 
@@ -31,7 +31,7 @@ s(1, 4) // returns 'hmm, I don't know!'
 
 **Kata's link:** [Sometimes](http://www.codewars.com/kata/sometimes/)
 
-#Best Practices
+## Best Practices
 
 **First:**
 
