@@ -29,15 +29,4 @@ function findUniq(arr) {
 ```
 
 ## My solutions
-```js
-function findUniq(arr) {
-  // do magic
-  let unique = arr.filter((value, index, self) => {
-      if(self.indexOf(value) === index && self.lastIndexOf(value) === index){
-          return value;
-      }
-  });
-
-  return unique[0] || 0;
-}
-```
+I didn't resolve it.
