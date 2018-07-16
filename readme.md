@@ -1,4 +1,4 @@
-## Awesome Codewars
+## Codewars Practices
 Some best practices for practice questions on [codewars](http://www.codewars.com/) and try to update it weekly.
 
 ## Lists
