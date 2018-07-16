@@ -35,11 +35,31 @@ s(1, 4) // returns 'hmm, I don't know!'
 
 **First:**
 
-```
+```js
 function sometimes(fn){
   var i = 0;
   return function(){
     return ++i && (i < 3 || i % 2) ? fn.apply(0, arguments) : "hmm, I don't know!";
   }
 }
+```
+
+## My solutions
+```js
+function sometimes(fn) {
+  var res;
+  var count = 0;
+  return function (){
+    count++;
+    if(count <= 3) {
+      return fn.apply(this,arguments);
+    }
+    
+    if(count % 2 === 0){
+      return "hmm, I don't know!";
+    } else {
+      return fn.apply(this,arguments);
+    }
+  };
+};
 ```

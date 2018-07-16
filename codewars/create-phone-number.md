@@ -13,7 +13,7 @@ Don't forget the space after the closing parenthese!
 ## Best Practices
 
 **First:**
-```
+```js
 function createPhoneNumber(numbers){
   var format = "(xxx) xxx-xxxx";
   
@@ -27,14 +27,14 @@ function createPhoneNumber(numbers){
 ```
 
 **Second:**
-```
+```js
 function createPhoneNumber(numbers){
   return numbers.join('').replace(/(...)(...)(.*)/, '($1) $2-$3');
 }
 ```
 
 **Third:**
-```
+```js
 function createPhoneNumber(numbers){
   numbers = numbers.join('');
   return '(' + numbers.substring(0, 3) + ') ' 
@@ -45,7 +45,7 @@ function createPhoneNumber(numbers){
 ```
 
 **Fourth:**
-```
+```js
 function createPhoneNumber(numbers){
   numbers.unshift("(");
   numbers.splice(4, 0, ")", " ");
@@ -55,8 +55,43 @@ function createPhoneNumber(numbers){
 ```
 
 **Fifth:**
-```
+```js
 function createPhoneNumber(numbers){
   return numbers.join('').replace(/(\d{3})(\d{3})(\d{4})/,'($1) $2-$3');
+}
+```
+
+## My solutions
+```js
+function createPhoneNumber(numbers){
+  let checkPhone = /^\(\d{3}\)\s{1}\d{3}\-{1}\d{4}/;
+  let phoneString;  
+  let len = numbers.length;
+  
+  let first = '(';
+  let second = '';
+  let third = '';
+
+  for(let f = 0; f < 3; f++){
+    first += numbers[f];
+  }
+
+  first += ') ';
+
+  for(let s = 3; s < 6; s++){
+    second += numbers[s];
+  }
+  
+  second += '-';
+
+  for(let t = 6; t < 10; t++){
+    third += numbers[t];
+  }
+
+  phoneString = first + second + third;
+  
+  if(checkPhone.test(phoneString)){
+    return phoneString;
+  } 
 }
 ```

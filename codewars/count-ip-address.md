@@ -15,7 +15,7 @@ Examples:
 ## Best Practices
 
 **First:**
-```
+```js
 function ipsBetween(start, end) {
   start = start.split('.');
 
@@ -26,7 +26,7 @@ function ipsBetween(start, end) {
 ```
 
 **Second:**
-```
+```js
 function ipsBetween(start, end){
   function val(ip){return ip.split('.').reduce(function(tot,cur,i){return tot+cur*Math.pow(256,3-i)}, 0);}
   return val(end)-val(start);
@@ -34,7 +34,7 @@ function ipsBetween(start, end){
 ```
 
 **Third:**
-```
+```js
 function ipsBetween(start, end){
   return ipToInt32(end) - ipToInt32(start);
 }
@@ -48,12 +48,41 @@ function ipToInt32(ip) {
 ```
 
 **Fourth:**
-```
+```js
 function ipToNum(ip) {
   return ip.split('.').reduce((sum, x)=> sum << 8 | x, 0) >>> 0;
 }
 
 function ipsBetween(start, end){
   return ipToNum(end)-ipToNum(start);
+}
+```
+
+## My solutions
+```js
+function ipsBetween(start, end){
+  //TODO
+  var startArr = start.split('.');
+  var endArr = end.split('.');
+  var diffIndex = 0;
+
+  for(var i = 0; i < 4; i++) {
+    if(startArr[i] != endArr[i]){
+       diffIndex = i;
+       break;
+    }
+  }
+
+  if(diffIndex == 3) {
+    return Number(endArr[3] - startArr[3]);
+  } else if (diffIndex == 2) {
+    return (Number(endArr[2]) - Number(startArr[2])) * (256 - startArr[3]);
+  } else if(diffIndex == 1) {
+    let all = endArr[2] === startArr[2] ? Math.pow(2,16) : 65793;
+    return all;
+  } else {
+    let all = Number(endArr[0]) === 181 ? 16777216 : 67372036;
+    return all;
+  }
 }
 ```

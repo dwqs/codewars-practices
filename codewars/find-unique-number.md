@@ -14,7 +14,7 @@ It’s guaranteed that array contains 3 or more numbers.
 ## Best Practices
 
 **First:**
-```
+```js
 function findUniq(arr) {
   arr.sort((a,b)=>a-b);
   return arr[0]==arr[1]?arr.pop():arr[0]
@@ -22,8 +22,22 @@ function findUniq(arr) {
 ```
 
 **Second:**
-```
+```js
 function findUniq(arr) {
   return +arr.filter( (value) => { return arr.indexOf(value) == arr.lastIndexOf(value) } );
+}
+```
+
+## My solutions
+```js
+function findUniq(arr) {
+  // do magic
+  let unique = arr.filter((value, index, self) => {
+      if(self.indexOf(value) === index && self.lastIndexOf(value) === index){
+          return value;
+      }
+  });
+
+  return unique[0] || 0;
 }
 ```

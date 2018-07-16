@@ -23,7 +23,7 @@ To help you get started, here is an excerpt from Wikipedia's page on [Ordinal In
 ## Best Practices
 
 **First:**
-```
+```js
 function numberToOrdinal(n) {
   var suffix = "th";
   if (n == 0) suffix = "";
@@ -35,7 +35,7 @@ function numberToOrdinal(n) {
 ```
 
 **Second:**
-```
+```js
 function numberToOrdinal(n) {
   s = n.toString();
   if ( s.match(/\d*(11|12|13)$/) ) return s + 'th';
@@ -44,5 +44,40 @@ function numberToOrdinal(n) {
   if ( s.match(/\d*(3)$/) ) return s + 'rd';
   if ( s === '0' ) return s;
   return s + 'th';
+}
+```
+
+## My solutions
+```js
+function numberToOrdinal(n) {
+  // Finish me
+  if(n === 0) {
+    return '0';
+  }
+
+  if (n > 0 && Number.isSafeInteger(n)) {
+
+      if(n >= 10 && n <= 20) {
+        return '' + n +'th';
+      }
+
+      if(/^\d+(1\d+)$/.test(n)) {
+          return  '' + n + 'th';
+       }
+
+      if(/^\d?1$/.test(n) || /^\d+(0+1)$/.test(n)) {
+        return '' + n + 'st';
+      }
+      if(/^\d?2$/.test(n)) {
+        return  ''+ n + 'nd';
+      }
+      if(/^\d?3$/.test(n) || /^\d+(\d+3)$/.test(n)) {
+        return  ''+ n + 'rd';
+      }
+      
+      if(/^\d{1,2}/.test(n)){
+         return ''+ n + 'th';
+      }
+   }
 }
 ```
