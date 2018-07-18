@@ -7,8 +7,9 @@ Here is my codewars homepage: https://www.codewars.com/users/dwqs.
 
 ## Lists
 ### 2018-07
-* [Valid Parentheses](codewars/201807/valid-parentheses.md)
+* [Simple Pig Latin](codewars/201807/simple-pig-latin.md)
 * [Weight for weight](codewars/201807/weight-for-weight.md)
+* [Valid Parentheses](codewars/201807/valid-parentheses.md)
 
 ### 2017-02
 * [Regex Password Validation](codewars/git/regex-password-validation.md)
