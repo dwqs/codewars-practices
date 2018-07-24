@@ -7,6 +7,7 @@ Here is my codewars homepage: https://www.codewars.com/users/dwqs.
 
 ## Lists
 ### 2018-07
+* [parseInt reloaded](codewars/201807/parseint-reloaded.md)
 * [Return substring instance count](codewars/201807/substring-instance-count.md)
 * [Simple Pig Latin](codewars/201807/simple-pig-latin.md)
 * [Weight for weight](codewars/201807/weight-for-weight.md)
