@@ -6,6 +6,9 @@ Some best practices for practice questions on [codewars](http://www.codewars.com
 Here is my codewars homepage: https://www.codewars.com/users/dwqs.
 
 ## Lists
+### 2018-08
+* [Twice linear](codewars/201808/twice-linear.md)
+
 ### 2018-07
 * [parseInt reloaded](codewars/201807/parseint-reloaded.md)
 * [Return substring instance count](codewars/201807/substring-instance-count.md)
