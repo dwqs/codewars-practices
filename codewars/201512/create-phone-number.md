@@ -95,3 +95,39 @@ function createPhoneNumber(numbers){
   } 
 }
 ```
+
+## Solution using PHP by [Patrik Rufino](www.github.com/patrikrufino)
+
+```php
+function createPhoneNumber($numbersArray) {
+
+    // Start a variable starting with (
+    $phoneNumber = "(";
+    
+    // Start a counter
+    $counter = 0;
+    
+    // Loop through the array
+    foreach ($numbersArray as $number) {
+        
+        // Add all numbers in my string
+        $phoneNumber .= $number;
+        
+        // If the counter is equal to 2, that is, index 2 of the array, I concatenate to ") "
+        if ($counter == 2) {
+            $phoneNumber .= ") ";
+        }
+        
+        // If the counter is equal to 5, that is, index 5 of the array, I concatenate to ") "
+        if ($counter == 5) {
+            $phoneNumber .= "-";
+        }
+
+        // Increment the counter
+        $counter++;
+    }
+    
+    // Return the phone number
+    return $phoneNumber;
+}
+```
